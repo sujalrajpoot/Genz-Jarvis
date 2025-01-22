@@ -138,7 +138,7 @@ We welcome contributions to improve Genz-Jarvis. To contribute, follow these ste
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/sujalrajpoot/Genz-Jarvis/blob/main/LICENCE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/sujalrajpoot/Genz-Jarvis/blob/main/LICENSE) file for details.
 
 ## Connect with Us
 
