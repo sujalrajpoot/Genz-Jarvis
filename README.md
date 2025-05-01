@@ -15,14 +15,6 @@
 - [License](#license)
 - [Connect with Us](#connect-with-us)
 
-## Features
-
-- **Speech Recognition**: Convert spoken language into text using various models.
-- **Text Processing**: Analyze and generate text with multiple AI tools.
-- **Image Analysis**: Perform image recognition and processing tasks.
-- **Audio Tools**: Detect hotwords and manage audio playback interruptions.
-- **Interactive Prompts**: Predefined prompts to guide AI interactions.
-
 ## **Features & Descriptions**
 
 - **Open/Close Applications**  
@@ -178,6 +170,184 @@
 
 **Let Jarvis highlight clickable elements (links/buttons) and say:**
 - *"Click button 2"*
+
+- **Voice-Based Retrieval Example**
+    User: "Jarvis, what did I save about vacation plans?"
+    Jarvis: "On April 12, you noted: 'Book Goa trip and compare flights on Skyscanner.'"
+
+# **New Advanced Features for Jarvis**
+
+## 1. **Face Detection**
+> Jarvis constantly scans the environment to detect if any human face is present using the webcam.
+
+## 2. **Face Recognition (Known Faces)**
+> Jarvis identifies if the face belongs to a known user (like you or authorized people) using pre-trained face encodings.
+
+## 3. **Face Authentication (Secure Access)**
+> Jarvis allows sensitive operations (like unlocking confidential apps or folders) only after recognizing your authorized face.
+
+## 4. **Save Unknown Faces**
+> When an unknown face is detected, Jarvis captures and stores the face snapshot secretly for security review later.
+
+## 5. **Real-Time Intruder Alert**
+> If an unknown person approaches while you're away, Jarvis sends you an alert and saves evidence automatically.
+
+## 6. **Object Detection (Phone, Book, Laptop, etc.)**
+> Jarvis can detect objects like a phone, laptop, or book placed near your workspace and act intelligently.
+
+## 7. **Context-Aware Actions**
+> Based on detected objects (e.g., picking up a phone), Jarvis can initiate relevant actions (like reading new messages).
+
+## 8. **Gesture Recognition (Hand Gestures)**
+> Jarvis can recognize hand gestures (like open palm, thumbs up) to control actions like scrolling, pausing music, etc., without touching anything.
+
+## 9. **Gesture-Based Screen Control**
+> Navigate screens by moving your hand — scroll webpages, click, zoom in/out using hand gestures captured by the camera.
+
+## 10. **Auto Face Unlock for Jarvis Console**
+> Jarvis automatically unlocks certain applications, folders, or dashboards when it recognizes your face without needing passwords.
+
+## 11. **Emotion Detection (Bonus Future)**
+> Jarvis analyzes your facial emotions (happy, sad, tired) and adapts responses or mood of the environment (like music, lighting).
+
+## 12. **Environment Monitoring Mode**
+> Jarvis continuously monitors the surroundings and intelligently adapts — alerts you if a stranger, object movement, or unusual activity is detected.
+
+---
+
+# **How these features connect to create a living Jarvis**
+
+> **"Good evening {User}. Welcome back!"** (after face recognition)  
+> **"You seem a bit tired, shall I play something relaxing?"** (emotion detection)  
+> **"An unknown face was detected near your laptop. I've saved the image and locked the screen."** (intruder alert + unknown face saving)  
+> **"Phone detected. Do you want to hear your unread WhatsApp messages?"** (object detection + action)  
+> **[Open palm gesture] — Jarvis pauses your music instantly.** (gesture control)  
+
+---
+
+# **Quick Visual Summary**
+
+| Feature                   | Purpose                                              |
+|----------------------------|------------------------------------------------------|
+| Face Detection             | Detects human presence.                             |
+| Face Recognition           | Identifies authorized users.                        |
+| Face Authentication        | Secures sensitive actions.                          |
+| Save Unknown Faces         | Records unknown faces for security.                 |
+| Real-Time Intruder Alert    | Alerts about unauthorized access.                   |
+| Object Detection           | Detects key objects (phone, laptop, etc.).           |
+| Context-Aware Actions      | Acts based on detected objects.                     |
+| Gesture Recognition        | Understands hand gestures.                          |
+| Gesture-Based Control      | Control screen without touching it.                 |
+| Auto Face Unlock           | Unlocks apps/devices automatically.                 |
+| Emotion Detection (future) | Adjusts behavior based on your mood.                |
+| Environment Monitoring     | Watches for unusual activities continuously.         |
+
+> **Navigate and Calculate Distances**  
+> Find the best routes, get step-by-step directions, and calculate distances between any two locations instantly using smart voice or typed commands.
+
+**1. Professional Tone**  
+> **Route Planning and Distance Calculation**  
+> Seamlessly plan journeys, calculate distances, and navigate with precision between any two points using real-time directions.
+
+---
+
+**2. Futuristic/Assistant Tone**  
+> **Smart Navigation and Distance Insights**  
+> Instantly chart the fastest paths, calculate accurate travel times, and guide your journey with intelligent map-based navigation.
+
+---
+
+**3. Casual/Conversational Tone**  
+> **Find Your Way Easily**  
+> Just tell me where you want to go — I'll map the route, tell you how far it is, and guide you there step-by-step.
+
+Perfect — you want **all possible features** you can build using **Google Maps APIs**, along with **short descriptions** ready for your Jarvis feature list.  
+I'll keep the style *short, clean, action-focused* like you asked.
+
+---
+
+### **Google Maps Features for Jarvis**
+
+---
+
+**1. Navigate and Calculate Distances**  
+Find the best routes, get step-by-step directions, and calculate distances between any two locations instantly.
+
+---
+
+**2. Real-Time Traffic Updates**  
+Stay updated with live traffic conditions and find faster alternative routes to save time.
+
+---
+
+**3. Nearby Places Finder**  
+Discover restaurants, hospitals, petrol pumps, ATMs, or any place nearby based on your location.
+
+---
+
+**4. Travel Time Estimator**  
+Predict accurate travel times considering current traffic conditions for better trip planning.
+
+---
+
+**5. Location Coordinates Finder**  
+Quickly get the latitude and longitude of any address or place for advanced navigation needs.
+
+---
+
+**6. Reverse Geocoding (Address from Location)**  
+Find the exact address from a given set of GPS coordinates (latitude, longitude).
+
+---
+
+**7. Place Details Fetcher**  
+Retrieve detailed information about a place, including opening hours, ratings, phone numbers, and reviews.
+
+---
+
+**8. Route Optimization (Multi-Stop Routing)**  
+Optimize and reorder multiple destinations to find the shortest and most efficient travel path.
+
+---
+
+**9. Distance Between Multiple Places (Matrix Calculation)**  
+Calculate distances and travel times between multiple origin and destination points at once.
+
+---
+
+**10. Static Map Generator**  
+Generate a static image map showing specific locations, routes, or areas without needing live rendering.
+
+---
+
+**11. Current Location Detector**  
+Automatically detect and display your current physical location in real time.
+
+---
+
+**12. Voice-Guided Navigation Integration**  
+Guide users turn-by-turn through voice commands integrated with your directions module.
+
+---
+
+**13. Weather Along Route** *(if combined with a weather API)*  
+Show weather forecasts for locations along the route during trip planning.
+
+---
+
+**14. Landmark and Area Search**  
+Find famous landmarks, tourist attractions, and important spots in any city or region.
+
+---
+
+**15. Location-Based Reminders** *(advanced)*  
+Trigger custom reminders or actions when reaching a specific location.
+
+**Stock Insights & Comparison:**
+Instantly check real-time stock data, compare companies, analyze trends, and predict future performance using AI-powered insights.
+
+**AI Measurement Camera:**
+Measure real-world objects and distances instantly through your device camera, powered by AI vision and smart calibration.
 
 ## Directory Structure
 
